@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="560" viewBox="0 0 1280 560">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9bca3c;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: #0db8b2;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill-opacity: 0;
+      }
+
+      .cls-4 {
+        stroke: #0db8b2;
+      }
+
+      .cls-4, .cls-5 {
+        stroke-linejoin: round;
+        stroke-width: 1px;
+      }
+
+      .cls-5 {
+        stroke: #9bca3c;
+      }
+    </style>
+  </defs>
+  <path id="Form_11" data-name="Form 11" class="cls-1" d="M-76.827,562.469l-0.345-.938,185-68,0.344,0.938Z"/>
+  <path id="Form_12" data-name="Form 12" class="cls-1" d="M107.812,494.463l0.376-.926,42,17-0.376.926Z"/>
+  <path id="Form_13" data-name="Form 13" class="cls-1" d="M150.211,511.454l-0.422-.908,112-52,0.422,0.908Z"/>
+  <path id="Form_14" data-name="Form 14" class="cls-1" d="M262.341,459.366l-0.682-.732,101-94,0.682,0.732Z"/>
+  <path id="Form_15" data-name="Form 15" class="cls-1" d="M362.825,365.468l0.35-.936,83,31-0.35.936Z"/>
+  <path id="Form_16" data-name="Form 16" class="cls-1" d="M445.608,396.31l0.784-.62,15,19-0.784.62Z"/>
+  <path id="Form_17" data-name="Form 17" class="cls-1" d="M461.228,415.445l-0.456-.89,78-40,0.456,0.89Z"/>
+  <path id="Form_18" data-name="Form 18" class="cls-1" d="M539.083,375.493l-0.166-.986,131-22,0.166,0.986Z"/>
+  <path id="Form_19" data-name="Form 19" class="cls-1" d="M670.294,353.4l-0.588-.808,66-48,0.588,0.808Z"/>
+  <path id="Form_20" data-name="Form 20" class="cls-1" d="M735.819,305.466l0.362-.932,85,33-0.362.932Z"/>
+  <path id="Form_21" data-name="Form 21" class="cls-1" d="M821.387,338.317l-0.774-.634,82-100,0.774,0.634Z"/>
+  <path id="Form_22" data-name="Form 22" class="cls-1" d="M902.918,238.493l0.164-.986,66,11-0.164.986Z"/>
+  <path id="Form_23" data-name="Form 23" class="cls-1" d="M969.075,249.494l-0.15-.988,106.005-16,0.14,0.988Z"/>
+  <path id="Form_24" data-name="Form 24" class="cls-1" d="M1075.26,233.425l-0.52-.85,113-70,0.52,0.85Z"/>
+  <path id="Form_25" data-name="Form 25" class="cls-1" d="M1187.95,163.5l0.1-1,54,5-0.1,1Z"/>
+  <path id="Form_26" data-name="Form 26" class="cls-1" d="M1242.33,168.373l-0.66-.746,120-107,0.66,0.746Z"/>
+  <path id="Form_27" data-name="Form 27" class="cls-2" d="M-11.756,540.437l-0.488-.874,145-81,0.488,0.874Z"/>
+  <path id="Form_28" data-name="Form 28" class="cls-2" d="M132.973,459.5l0.054-1,55,3-0.054,1Z"/>
+  <path id="Form_29" data-name="Form 29" class="cls-2" d="M188.12,462.485l-0.24-.97,85-21,0.24,0.97Z"/>
+  <path id="Form_30" data-name="Form 30" class="cls-2" d="M272.776,441.447l0.448-.894,62,31-0.448.894Z"/>
+  <path id="Form_31" data-name="Form 31" class="cls-2" d="M335.268,472.422l-0.536-.844,140-89,0.536,0.844Z"/>
+  <path id="Form_32" data-name="Form 32" class="cls-2" d="M474.875,383.484l0.25-.968,97,25-0.25.968Z"/>
+  <path id="Form_33" data-name="Form 33" class="cls-2" d="M572.021,408.5l-0.042-1,118-5,0.042,1Z"/>
+  <path id="Form_34" data-name="Form 34" class="cls-2" d="M690.235,403.441l-0.47-.882,60-32,0.47,0.882Z"/>
+  <path id="Form_35" data-name="Form 35" class="cls-2" d="M750.441,371.236l-0.882-.472,53-99,0.882,0.472Z"/>
+  <path id="Form_36" data-name="Form 36" class="cls-2" d="M802.981,272.5l0.038-1,205,8-0.04,1Z"/>
+  <path id="Form_37" data-name="Form 37" class="cls-2" d="M1009.45,280.224l-0.9-.448,35-70,0.9,0.448Z"/>
+  <path id="Form_38" data-name="Form 38" class="cls-2" d="M1043.89,210.488l0.22-.976,71,16-0.22.976Z"/>
+  <path id="Form_39" data-name="Form 39" class="cls-2" d="M1115.42,226.272l-0.84-.544,85-131,0.84,0.544Z"/>
+  <path id="Form_39_Kopie" data-name="Form 39 Kopie" class="cls-2" d="M1199.1,96.156l-0.48-.879L1335.9,20.844l0.48,0.879Z"/>
+  <path id="Form_40" data-name="Form 40" class="cls-3" d="M1383.26,29.426l-0.52-.851,86-53,0.52,0.851ZM308.5,347a4.5,4.5,0,1,1-4.5,4.5A4.5,4.5,0,0,1,308.5,347Z"/>
+  <path id="Form_40_Kopie" data-name="Form 40 Kopie" class="cls-4" d="M1549.26,61.426l-0.52-.851,86-53,0.52,0.851ZM474.5,379a4.5,4.5,0,1,1-4.5,4.5A4.5,4.5,0,0,1,474.5,379Z"/>
+  <path id="Form_40_Kopie_2" data-name="Form 40 Kopie 2" class="cls-4" d="M1877.26-49.574l-0.52-.851,86-53,0.52,0.852ZM802.5,268a4.5,4.5,0,1,1-4.5,4.5A4.5,4.5,0,0,1,802.5,268Z"/>
+  <path id="Form_40_Kopie_8" data-name="Form 40 Kopie 8" class="cls-4" d="M2274.26-226.574l-0.52-.852,86-53,0.52,0.852ZM1199.5,91a4.5,4.5,0,1,1-4.5,4.5A4.5,4.5,0,0,1,1199.5,91Z"/>
+  <path id="Form_40_Kopie_3" data-name="Form 40 Kopie 3" class="cls-4" d="M2119.26-112.574l-0.52-.852,86-53,0.52,0.852ZM1044.5,205a4.5,4.5,0,1,1-4.5,4.5A4.5,4.5,0,0,1,1044.5,205Z"/>
+  <path id="Form_40_Kopie_4" data-name="Form 40 Kopie 4" class="cls-5" d="M1438.26,43.426l-0.52-.851,86-53,0.52,0.851ZM363.5,361a4.5,4.5,0,1,1-4.5,4.5A4.5,4.5,0,0,1,363.5,361Z"/>
+  <path id="Form_40_Kopie_5" data-name="Form 40 Kopie 5" class="cls-5" d="M1811.26-16.574l-0.52-.851,86-53,0.52,0.851ZM736.5,301a4.5,4.5,0,1,1-4.5,4.5A4.5,4.5,0,0,1,736.5,301Z"/>
+  <path id="Form_40_Kopie_6" data-name="Form 40 Kopie 6" class="cls-5" d="M1978.26-83.574l-0.52-.851,86-53,0.52,0.852ZM903.5,234a4.5,4.5,0,1,1-4.5,4.5A4.5,4.5,0,0,1,903.5,234Z"/>
+  <path id="Form_40_Kopie_7" data-name="Form 40 Kopie 7" class="cls-5" d="M2263.26-158.574l-0.52-.852,86-53,0.52,0.852ZM1188.5,159a4.5,4.5,0,1,1-4.5,4.5A4.5,4.5,0,0,1,1188.5,159Z"/>
+</svg>
