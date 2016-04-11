@@ -144,7 +144,7 @@
                                         <div class="tab-content">
                                             <p class="lead">
                                                 Octo observes a unique user’s data and creates
-unique profiles per user not per segment.  This gives marketers a unique way to target and approach each user with respect to their journey and get the opportunity to conver them into Super Users. 
+unique profiles per user not per segment.  This gives marketers a unique way to target and approach each user with respect to their journey and get the opportunity to convert them into Super Users. 
                                             </p>
                                         </div>
                                     </li>
@@ -295,7 +295,7 @@ user with maximum probability.
                     </div>
                     <br>
                     <p class="lead">
-                                Octo crunches cross - channel data real time. It uses machine learning and deep nueral networks to understand each user and engage them. It creates a segment of one for each user and works real time day and night without any human intervention. 
+                                Octo crunches cross - channel data real time. It uses machine learning and deep neural networks to understand each user and engage them. It creates a segment of one for each user and works real time day and night without any human intervention. 
 
                             <br><br><br><br>
                
@@ -367,7 +367,7 @@ user with maximum probability.
                     <div class="row">
                         <div class="col-sm-12 text-center">
                               <div id="step">
-<form action="https://formspree.io/minhas.param@gmail.com"
+<form action="https://formspree.io/swapnil@octo.ai" id="contactform"
       method="POST">
             <div class="stepBar"><div class="stpBvalue"></div></div>
             <ul class="stepNavigation"></ul>
@@ -383,29 +383,31 @@ user with maximum probability.
                 </div>
 
                 <div class="stpCont animated" id="st2">
-                    <input type="text" id="name" required>
+                    <input type="text" id="name" name="Name" required>
                     <label for="name">Name</label>
                     <div class="stpNext required">NEXT</div>
                 </div>  
 
                 <div class="stpCont animated" id="st3">
-                    <select id="gender" required=>
-                        <option value="" selected="" disabled="">Demo</option>          
-                        <option value="Man">Chat</option>          
-                        <option value="Woman">Invest</option>                                   
+                    <select id="gender" name="Options" required=>
+                        <option value="Demo" selected="">Demo</option>          
+                        <option value="Chat">Chat</option>          
+                        <option value="Invest">Invest</option>                                   
                     </select>
                     <label for="gender">What do you need</label>
                     <div class="stpNext required">NEXT</div>
                 </div>  
 
                 <div class="stpCont animated" id="st5">
-                    <input type="text" id="mail" required>
+                    <input type="text" id="mail" name="Client Email" required>
                     <label for="mail">E-Mail</label>
-                    <div class="stpNext required">NEXT</div>
+                    <div class="stpNext required" id="formsubmit">NEXT</div>
                 </div>
+                <div hidden><input type="submit" class="stpNext required" align="middle" value="Send"></div>
 
+                
 
-            <div class="stpCont animated final">
+            <div class="stpCont animated final" id="final-msg">
                     <h2>We will get in touch soon </h2>
                     <p>We will get in touch with you real soon .</p>
                 </div>                
@@ -482,7 +484,23 @@ new Typist(typist, {
     suffix = options.typist.getAttribute("data-typist-suffix");
     return log(text + " " + suffix);
   }
-});</script>
+});
+
+$('#formsubmit').click(function(){
+    $('#contactform').submit();
+    $('#contactform').closest('form').find("input[type=text], textarea").val("")
+});
+
+
+
+$('#formsubmit').click(function(){
+    $('#st5').hide();
+    $('#final-msg').show();
+});
+
+
+
+</script>
 
     </body>
 </html>
