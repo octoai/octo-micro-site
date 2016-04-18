@@ -12,7 +12,7 @@
         <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
                 <link href="css/typist.css" rel="stylesheet" type="text/css" media="all" />
-                                <link href="css/textrotate.css" rel="stylesheet" type="text/css" media="all" />
+                                <!-- <link href="css/textrotate.css" rel="stylesheet" type="text/css" media="all" /> -->
     <link rel="stylesheet" href="css/animation.css">
         <link rel="stylesheet" href="css/step.css">
 
@@ -47,14 +47,14 @@
 
                             <li >
                                     <a href="#mind">
-                                        Mind
+                                            How it Works
                                     </a>
                                     
                                         </li>
 
                                 <li >
                                     <a href="#body">
-                                     Body
+                                     Features
                                     </a>
                                     
                                         </li>
@@ -313,7 +313,7 @@ user with maximum probability.
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
-                            <h6 class="uppercase">Automation</h6>
+                            <h6 class="uppercase">Features</h6>
                             <hr >
                         </div>
                     </div>
@@ -509,24 +509,19 @@ user with maximum probability.
         <script src="js/parallax.js"></script>
         <script src="js/scripts.js"></script>
                 <script src="js/typist.js"></script>
-                                <script src="js/textrotate.js"></script>
+                         
                                                                 <script src="js/step.js"></script>
 
 
 
-                       <script type="text/javascript"> $(".rotate").textrotator({
-  animation: "dissolve", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
-  separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
-  speed: 2000 // How many milliseconds until the next word show.
-});</script>
 
 <script type="text/javascript">var typist;
 
 typist = document.querySelector("#typist-element");
 
 new Typist(typist, {
-  letterInterval: 60,
-  textInterval: 2000,
+  letterInterval: 80,
+  textInterval: 1000,
   onSlide: function(text, options) {
     var suffix;
     suffix = options.typist.getAttribute("data-typist-suffix");
@@ -546,15 +541,6 @@ $('#formsubmit').click(function(){
 });
 
 </script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-76541897-3', 'auto');
-  ga('send', 'pageview');
-
-</script>
     </body>
 </html>
