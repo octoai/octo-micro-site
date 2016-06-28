@@ -1,0 +1,13 @@
+<% content_for :title do %>Developer<% end %>
+    <main role="main" class="js-app-container" data-view="jobs">
+      <article class="content content--jobs">
+        <header class="content-header">
+          <h1>Data Engineer</h1>
+        </header>
+      </article>
+    </main>
+<% content_for :scripts do %>
+    <script type="text/javascript">
+      $.octo.ajax(pageUrl, {userId:-1, browserDetails:browser_details_json, routeUrl:window.location.pathname}, {apikey: API_KEY});
+    </script>
+<% end %>

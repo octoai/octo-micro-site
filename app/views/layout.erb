@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Octo | <% yield_content :title %></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Octo Labs">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Octo-Matic  Mobile Engagement automation | Marketing of one | Marketing Robot | " />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="Octo-Matic" />
+  <meta property="og:description" content="Octo helps you win over and delight your customers by automating engagement and driving real time conversions via Intellimoments™" />
+  <meta name="twitter:card" content="" />
+  <meta name="twitter:site" content="" />
+  <meta name="twitter:creator" content="" />
+  <meta name="twitter:title" content="" />
+  <meta name="twitter:description" content="" />
+  <meta name="twitter:image:src" content="" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/ico/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/ico/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/ico/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/ico/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/ico/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/ico/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/ico/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/ico/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/ico/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/ico/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/ico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/ico/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/ico/favicon-16x16.png">
+  <link rel="manifest" href="/assets/ico/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/ico/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <script type="application/javascript" src="/assets/js/modernizr.js"></script>
+  <link href="/assets/css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/stroke.css" />
+  <link rel="stylesheet" href="/assets/css/webicon.css" />
+  <link rel="stylesheet" href="/assets/css/morphext.css" />
+  <link rel="stylesheet" href="/assets/css/animate.css" />
+  <link rel="stylesheet" href="/assets/css/rotate.css" />
+  <link rel="stylesheet" href="/assets/css/textrotate.css" />
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+          }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-76541897-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <!-- Page specific css -->
+  <% yield_content :styles %>
+</head>
+<body>
+  <div class="wrapper" data-smooth-scroll='{"speed": 1, "ease": 0.08, "fixed": true}'>
+    <header class="site-header js-app-header">
+      <div class="site-header__wrapper">
+        <h1 class="site-title">
+          <a class="site-title__logo" href="/">
+            <span class="u-visually-hidden">Octo-matic</span>
+            <img class="img-responsive2" src="/assets/images/logo.png" style="height: 50px; padding-left: 20px">
+            <!--[if gte IE 9]><!-->
+            <!--<![endif]-->
+          </a>
+        </h1>
+        <nav class="site-navigation" role="navigation">
+          <ul class="site-navigation__list">
+            <li class="site-navigation__item site-navigation__item--blue">
+              <a href="/"><i>Octo</i></a>
+            </li>
+            <li class="site-navigation__item">
+              <a href="/about-us">About</a>
+            </li>
+            <li class="site-navigation__item">
+              <a href="/faq">FAQ</a>
+            </li>
+            <li class="site-navigation__item">
+              <a href="/jobs">Jobs</a>
+            </li>
+            <li class="site-navigation__item">
+              <a href="http://blog.octo.ai/">Blog</a>
+            </li>
+            <li class="site-navigation__item">
+              <a href="/contact">Contact</a>
+            </li>
+            <li class="site-navigation__item">
+              <a href="http://developers.octo.ai/">Developers</a>
+            </li>
+            <li class="site-navigation__item site-navigation__item--languages has-dropdown">
+              <a aria-expanded="false" aria-haspopup="true" data-toggle-dropdown=""
+                 href="/" role="button">Try Now <!--[if gte IE 9]><!--></a>
+            </li>
+          </ul>
+        </nav>
+        <button class="site-navigation-trigger" data-navigation-trigger=""type="button">
+          <span class="site-navigation-trigger__wrapper">
+            <i class="site-navigation-trigger__line site-navigation-trigger__line--1"></i>
+            <i class="site-navigation-trigger__line site-navigation-trigger__line--2"></i>
+            <i class="site-navigation-trigger__line site-navigation-trigger__line--3"></i>
+          </span>
+        </button>
+      </div>
+    </header>
+
+      <!-- Page Content -->
+      <%= yield %>
+
+    <footer class="site-footer js-app-footer">
+      <div class="site-footer__wrapper">
+        <form action="" id="notifyform" class="site-newsletter" method="post">
+          <label for="email">Get in touch</label>
+          <input id="client_email" name="client_email" placeholder="Enter your email address" type="email" value="">
+          <button type="submit" class="button">Get notified</button>
+        </form>
+        <div class="row">
+          <div class="column large-3">
+            <!--[if gte IE 9]><!-->
+            <a class="site-title__logo" href="/"><span class="u-visually-hidden">Octo-matic</span>
+              <img class="img-responsive2" src="/assets/images/logo.png" style="height: 60px;">
+              <!--[if gte IE 9]><!-->
+              <!--<![endif]--></a> <!--<![endif]-->
+          </div>
+          <div class="column large-2 medium-6 small-12">
+            <nav class="site-footer__menu">
+              <h3>Company</h3>
+              <ul>
+                <li>
+                  <a href="/about-us">About us</a>
+                </li>
+                <li>
+                  <a href="http://blog.octo.ai/" target="_blank">News</a>
+                </li>
+                <li>
+                  <a href="/jobs">Jobs</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="column large-2 medium-6 small-12">
+            <nav class="site-footer__menu">
+              <h3>Products</h3>
+              <ul>
+                <li>
+                  <a href="http://octo.ai">Octo</a>
+                </li>
+                <li>
+                  <a href="/faq">FAQ</a>
+                </li>
+                <li>
+                  <a href="/contact">Support</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="column large-3 medium-6 small-12">
+            <nav class="site-footer__menu">
+              <h3>Business</h3>
+              <ul>
+                <li>
+                  <a href="/about-us">For Enterprises</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="column large-2 medium-6 small-12">
+            <nav class="site-footer__menu follow-up">
+              <h3>Follow up</h3>
+              <ul>
+                <li>
+                  <a href="https://twitter.com/octo" target="_blank">
+                    <!--[if gte IE 9]><!-->
+                    <svg class="icon-twitter" height="12" width="15">
+                      <use xlink:href=
+                               "/assets/fonts/icons/spritesheet.svg#icon-twitter"></use></svg>
+                    <!--<![endif]-->
+                    <span class="follow-up__label">Twitter</span></a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/octo" target="_blank">
+                    <!--[if gte IE 9]><!-->
+                    <svg class="icon-facebook" height="18" width="10">
+                      <use xlink:href=
+                               "/assets/fonts/icons/spritesheet.svg#icon-facebook"></use></svg>
+                    <!--<![endif]-->
+                    <span class="follow-up__label">Facebook</span></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/company/octo" target=
+                      "_blank"><!--[if gte IE 9]><!-->
+                    <svg class="icon-linkedin" height="14" width="15">
+                      <use xlink:href=
+                               "/assets/fonts/icons/spritesheet.svg#icon-linkedin"></use></svg>
+                    <!--<![endif]-->
+                    <span class="follow-up__label">Linkedin</span></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="site-copyright">
+          <ul>
+            <li>© 2016 Aurora Borealis Inc.</li>
+            <li style="list-style: none"><img class="icon icons8-Sheet-Metal"
+                                              height="20" src=
+                                                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAACzUlEQVRoQ+2aj1FUMRCHf1QgHagVCBWIFYAdaAd0IFSiVKBWIFSAVqBWIFSA8zFZJ2byZ8PlLm9uXmZubniXe2+/3V82uV0OtCfjYE845AU5lXQi6Si8DoMD7iR9D69rSV9nOaYF8kHSuSQzvGXnL0mfJF22Jo7+vASC5z8G7/PM35KeSyICL8M71wH8Gd5tDteJ0vvwPtrm7P1yIEB8i4x7JwnZYByDz+MRX0d+RMSg3+wKJgXBw0BgLHoHgij0DO4BDOsKyOOeLz91bgqC4UjqR1jcQDFSY24b14kEUXwVJAbYVkcKwsNfS3or6YtTTiWZmVNuglN2CvIQntbKZh6jkNgfz8QN5zzamhpsIDltt+SUk1+aGDa0uZywSiCskVp2Kskpvc4ayTlsBNB/6imBjJAWxo6UagrfBfIUOcVZbjEgnk2wJrPFgGyq5ekgo7PWqDUXO9a1RtaslWhxurRMCmvWCpFZTETWrCUJWdoxZ81aFUm40u8oDy5mjaxZa81a/jzpWiPrWStyKM5YfyE6FOaS1t6etShme6rxVry2HX0x+8im1fjpINSo0mo8lUcqkZ+jEg9FOLxPtKgsUrxmWDXeNtRRJ4XuX4gUrjGSVsFFKErbTWpeTqvx1leZBoLRpWp8Sy5xNd7gp4FYNT7XUmiBYDwwVo2fWmm0anwunXtA+J5V46eC1KTgBYmr8dOkNQLkRegv3nc0Ux0b+r8p1Z3dGj00MktdJruBdaVKDyd9I6+r8N5jpGduFcR0zT6AobnFHh8GAQeYrhStafYUDoqkbCJCNLjGZ6NHFSTONmyARCaFYQ69d3b92mAPOttiV7cKgmF4EE8/C54Ehr/TARARxFj6jjaIDlHCEb0d4Z6oNUEMBmPs94T9RwNA7DHbNNAL4wKxm6H1+Azlfcgu52WboSUDkE98jEd2SxldIEsxumjHNnbcKdB/AULE/jPIufnYAAAAAElFTkSuQmCC"
+                                              width="20"></li>
+            <li>
+              <a href="" target="_blank">Terms of use</a>
+            </li>
+            <li style="list-style: none"><img class="icon icons8-Privacy" height=
+                "20" src=
+                                                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAADdklEQVRoQ+1Z61HcMBDetQsgqSBQQYzUwKWCQAWBCoAK4CrgqICjguQqCA1oMRUkqSCkAGkz65EYx+OnbMyFOf268dnSfvvtWwhvZOHUOLIs20/T9DMALABgHwAyf0YOAD8B4N5au8nzXH5PtiYDIgCSJLlExJM+0jHz2jm3nArQJEC01kfMfIuI7zyIO2a+d87lsuRZlmVZkiQZIgpTX+QZMz8h4qkx5lsf8G3vjAailDpBxFt/yMZae96lZW9+KwAQExRAp0S0HgNmFBBhAgC+xgpTUcLxGGaigXifeBBzGqPRAEbMzDl32MVmE2vRQLTWYgpi6xtjjDATvbTW4iNiZnfGmF7BonpYFBBv4z9kM2vtQawWgzBT7BcFRCl1jojXYzRY1WhgmJkviEgCwaAVBSSYwhjfqEpZcvwoU40F8iCpwVorzlnkibFL8kyaprJvbow5HLpfLBCWg4wxUd83Cam1jt43SpAxB7Zpesy+OyA702qxrZ1pAUCrjyilJOkdIaI0SK+2mFmasDURLQfXWkqpFSKevZr0NQcz85KIrupkamREKfVbKtspk16sUkKyFGaI6GAQkDGOFyvwmBzTyMgOyEvQAQBdit0x0qZ43waf+YnJ81zLT1ZuYhqx2RmR3IOI521AmXlFRBdDrHBWIFrrok8RAZn5xjm3rsy1ZHQUctOgvmM2IKUE+sdau2hquHxOuAeAPQFLRK3sBdZmAVIZHhRdo392zcwyXXwsT1pK3WDv4cUsQAIbQcPlmZdo1Fr7Ps/zp7JPlIYNvViZBUjwjVDOlOZUhex1QIb26HMB+afXDnVaiQG5SjgFgKc0TW+NMcfyX5dwFQZb+/lJEmJVIK21mNFeXXhl5l9EVLQFWwdEKZUj4scm06oAKuZWpYr2kYhC0mxMLV2gJ2GkztnTNJV5V5UVCc2ZZPatdPaW8LuS8CtqRsQ83J1sbfgVQUusyPXAp7aEmCTJd38d0Sv09vGnSUwrGHbwFV+irJxzd5USRQrJ4tqAmXv5xqyZveyhfXr9IaXJqwGRg31mlxpqIdEsMCBX08651X9Rxg8pzYe8O0v4HSJQ7Ls7IF0aiNVs7Hdd8rSF36Je2rIB3XOdVlVI26TxChEvYzX4Et9FjUx9tpY5q/TZH15CsL57SsXsh9i1c9+iBOq72ba/92aA/AVssvpR3MOJgAAAAABJRU5ErkJggg=="
+                                              width="20"></li>
+            <li>
+              <a href="" target="_blank">Privacy Policy</a>
+            </li>
+          </ul><!--[if gte IE 9]><!-->
+          <!--<![endif]-->
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="/assets/js/main.js"></script>
+  <script type="text/javascript" src="/assets/js/morphext.min.js"></script>
+  <script type="application/javascript" src="/assets/js/rotate.js"></script>
+  <script type="application/javascript" src="/assets/js/textrotate.js"></script>
+  <script type="application/javascript" src="/assets/js/home.js"></script>
+  <script type="application/javascript" src="/assets/js/octo.js"></script>
+
+  <script type="application/javascript">
+    var API_KEY = "bb930a7d857ffe0336918ba4d06a2412";
+  </script>
+  <!-- Page specific javascripts -->
+  <% yield_content :scripts %>
+
+</body>
+</html>

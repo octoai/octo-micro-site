@@ -1,0 +1,112 @@
+<% content_for :title do %>Contact Us<% end %>
+<main class="js-app-container" data-view="contact" role="main">
+      <article class="content content--contact">
+        <header class="content-header typeset">
+          <div class="content-header__wrapper">
+            <div class="contact-address vcard">
+              <p class="fn org">Aurora Borealis<br>
+                <small>Inc</small></p>
+
+
+              <p class="adr"><span class="street-address">New-Delhi | Mumbai | Bangalore</span> <span class="country-name">India</span></p>
+            </div>
+          </div>
+        </header>
+
+
+        <div class="content-body" id="contact-form">
+          <span class="triangle triangle--top-right js-triangle"></span>
+
+          <div class="content-body__wrapper">
+            <div class="contact-form">
+              <form action="/contact" method="post" id="contactform">
+                <fieldset>
+                  <div class="form-group">
+                    <div class="form-field">
+                      <label for="lastname">First Name</label> <input class="form-control" id="lastname" name="fname" type="text" value="">
+                    </div>
+
+
+                    <div class="form-field">
+                      <label for="firstname">Last name</label> <input class="form-control" id="firstname" name="lname" type="text" value="">
+                    </div>
+                  </div>
+
+
+                  <div class="form-field">
+                    <label for="email">E-mail</label> <input class="form-control" id="email" name="emailid" type="email" value="">
+                  </div>
+
+
+                  <div class="form-field">
+                    <label for="subject">Subject of your request</label>
+                    <select class="form-control" id="subject" name="requesttype">
+                    <option value="investor">
+                      Investor
+                    </option>
+
+                    <option value="general">
+                      General
+                    </option>
+
+                    <option value="sales">
+                      Sales
+                    </option>
+
+                    <option value="support">
+                      Support
+                    </option>
+                  </select>
+                  </div>
+
+                  <div class="form-field">
+                    <label for="message">Your message</label>
+                    <textarea class="form-control" id="message" name="contactusmessage"></textarea>
+                  </div>
+
+                </fieldset>
+                <button class="button" type="submit" value="Send">Send</button>
+              </form>
+            </div>
+
+
+            <aside class="contact-faq typeset">
+              <h2><span class="splited-line"><span class="splited-line__wrapper">Frequently</span></span> <span class="splited-line"><span class="splited-line__wrapper"><strong>asked&nbsp;questions</strong></span></span></h2>
+
+
+              <ul>
+                <li>
+                  <a href="faq.html#faq-5">What <strong>is Octo-matic ?</strong></a>
+                </li>
+
+
+                <li>
+                  <a href="faq.html#faq-1">How does Octo <strong>work ?</strong></a>
+                </li>
+
+
+                <li>
+                  <a href="faq.html#faq-2">What are <strong>Intellimoments™</strong></a>
+                </li>
+
+
+                <li>
+                  <a href="faq.html#faq-3">What is <strong>'audience of one' Marketing ?</strong></a>
+                </li>
+
+
+                <li>
+                  <a href="faq.html#faq-6">Can I have multiple <strong>robots ?</strong></a>
+                </li>
+              </ul>
+              <a class="button button--underlined" href="faq.html">View all questions</a>
+            </aside>
+          </div>
+        </div>
+      </article>
+    </main>
+<% content_for :scripts do %>
+    <script type="text/javascript">
+      $.octo.ajax(pageUrl, {userId:-1, browserDetails:browser_details_json, routeUrl:window.location.pathname}, {apikey: API_KEY});
+    </script>
+<% end %>
