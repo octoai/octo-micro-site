@@ -65,5 +65,5 @@ var browser_details_json = {
 // URL where the post request should hit
 // removed other URL variables as they are not required at the moment
 // API key is saved in layout
-var baseUrl = "http://54.169.213.173";
+var baseUrl = "https://api.octo.ai";
 var pageUrl = baseUrl.concat("/events/page.view/");
