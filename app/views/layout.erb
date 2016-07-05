@@ -209,16 +209,15 @@
     </div>
   </footer>
 </div>
+<!-- <script src="/assets/js/jquery.min.js" type="text/javascript"></script> -->
+
 <!--
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
--->
-<script src="/assets/js/jquery.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="/assets/js/main.js"></script>
 <script type="text/javascript" src="/assets/js/morphext.min.js"></script>
 <script type="application/javascript" src="/assets/js/rotate.js"></script>
 <script type="application/javascript" src="/assets/js/textrotate.js"></script>
 <script type="application/javascript" src="/assets/js/home.js"></script>
-<script type="application/javascript" src="/assets/js/octo-minified-no-jquery-0.1.js"></script>
+-->
 
 <!-- Page specific javascripts -->
 <% yield_content :scripts %>
@@ -229,12 +228,55 @@
 <!-- Octo Matic -->
 
 <script type="application/javascript">
-  var API_KEY = "bb930a7d857ffe0336918ba4d06a2412";
-  var cookie_name = '_oid';
-  $.octo.apikey = API_KEY;
-  $.octo.init({
-    cookie_name: cookie_name
-  });
+  var OCTO_API_KEY = "bb930a7d857ffe0336918ba4d06a2412";
+  var octo_opts = {
+    cookie_name: '_oid'
+  };
+
+function loadScript(t,e){var o=document.createElement("script")
+o.type="text/javascript",o.readyState?o.onreadystatechange=function(){("loaded"==o.readyState||"complete"==o.readyState)&&(o.onreadystatechange=null,e())}:o.onload=function(){e()},o.src=t,document.body.appendChild(o)}"undefined"==typeof jQuery?loadScript("/assets/js/octo-minified-0.1.js",function(){jQuery.octo.apikey=OCTO_API_KEY,jQuery.octo.init(octo_opts)}):loadScript("/assets/js/octo-minified-no-jquery-0.1.js",function(){jQuery.octo.apikey=OCTO_API_KEY,jQuery.octo.init(octo_opts)})
+
+<%#
+
+    The below script is the original human readable, writeable
+    code that is used to generate the above compressed one.
+
+      Usually in production we will use above code.
+      This one is for time being here
+/*
+
+  // Don't change anything below
+  function loadScript(url, callback){
+    var script = document.createElement("script")
+    script.type = "text/javascript";
+    if (script.readyState){  //IE
+      script.onreadystatechange = function(){
+        if (script.readyState == "loaded" || script.readyState == "complete"){
+          script.onreadystatechange = null;
+          callback();
+        }
+      };
+    } else {  //Others
+      script.onload = function(){
+        callback();
+      };
+    }
+    script.src = url;
+    document.body.appendChild(script);
+  }
+  if(typeof(jQuery) == 'undefined') {
+    loadScript('/assets/js/octo-minified-0.1.js', function(){
+      jQuery.octo.apikey = OCTO_API_KEY;
+      jQuery.octo.init(octo_opts);
+    });
+  } else {
+    loadScript('/assets/js/octo-minified-no-jquery-0.1.js', function(){
+      jQuery.octo.apikey = OCTO_API_KEY;
+      jQuery.octo.init(octo_opts);
+    });
+  }
+ */
+   #%>
 </script>
 
 
