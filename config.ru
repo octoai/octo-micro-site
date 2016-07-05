@@ -14,3 +14,5 @@ map('/about-us') {run AboutUsController}
 map('/contact') {run ContactUsController}
 map('/faq') {run FaqController}
 map('/jobs') {run JobsController}
+map('/privacy') {run PrivacyController}
+
