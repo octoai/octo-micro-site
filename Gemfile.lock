@@ -17,6 +17,7 @@ GEM
       activemodel (~> 4.0)
       cassandra-driver (~> 2.0)
     descriptive_statistics (2.5.1)
+    diff-lcs (1.2.5)
     elasticsearch (1.0.18)
       elasticsearch-api (= 1.0.18)
       elasticsearch-transport (= 1.0.18)
@@ -69,6 +70,19 @@ GEM
       redis (~> 3.0)
       resque (~> 1.25)
       rufus-scheduler (~> 3.0)
+    rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+    rspec-core (3.5.1)
+      rspec-support (~> 3.5.0)
+    rspec-expectations (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-mocks (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-support (3.5.0)
     ruby-kafka (0.3.11)
     rufus-scheduler (3.2.1)
     sinatra (1.4.7)
@@ -91,6 +105,7 @@ PLATFORMS
 
 DEPENDENCIES
   octocore (~> 0.0.2, = 0.0.2)
+  rspec
   sinatra
   sinatra-content-for
 
